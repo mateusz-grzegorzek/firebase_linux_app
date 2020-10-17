@@ -1,0 +1,19 @@
+name: firebase_core_linux
+description: Linux implementation of the firebase_core plugin.
+version: 0.0.1
+homepage: https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_core/
+
+flutter:
+  plugin:
+    platforms:
+      linux:
+        pluginClass: FlFirebaseCorePlugin
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.12.8 <2.0.0"
+
+dependencies:
+  firebase_core_platform_interface: ^2.0.0
+  flutter:
+    sdk: flutter
